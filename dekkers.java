@@ -11,8 +11,8 @@ class dekkers {
 			if(turn==2){
 				wantp = 0;
 				while(turn==2){Thread.currentThread().yield();};
-				wantp = 1;
 			}
+			wantp = 1;
 		}
 		System.out.println("p CS");
 		turn = 2;
@@ -26,8 +26,8 @@ class dekkers {
 			if(turn ==1){
 				wantq = 0;
 				while(turn==1){Thread.currentThread().yield();};
-				wantq = 1;
 			}
+			wantq = 1;
 		}
 		System.out.println("q CS");
 		turn = 1;
